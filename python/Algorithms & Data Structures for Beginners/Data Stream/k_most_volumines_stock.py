@@ -1,6 +1,6 @@
 """
     Q: 
-        You have a stream of Stock ticker and volumen coming in from a data stream.
+        You have a stream of Stock ticker and volume coming in from a data stream.
         You need to design a function which returns the K most voluminous stocks, i.e. K largest stocks
 
     Ex: 
