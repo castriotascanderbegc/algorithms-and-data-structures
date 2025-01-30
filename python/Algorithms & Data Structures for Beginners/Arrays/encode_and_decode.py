@@ -55,3 +55,7 @@ class Solution:
             res.append(s[j + 1: j + 1 + length])
             i = j + 1 + length  # update our pointers
         return res
+
+# 4#neet4#code4#love3#you
+# i = 12, j = 13, length = 3
+# res = ['neet', 'code', 'love', 'you']
