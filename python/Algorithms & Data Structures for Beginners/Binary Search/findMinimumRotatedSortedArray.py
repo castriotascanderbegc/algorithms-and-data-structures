@@ -31,4 +31,4 @@ class Solution:
                 # minimum will be toward the left part of mid
                 high = mid - 1          # update low pointer
         
-        return min(nums[low], currMin)
+        return int(min(nums[low], currMin)) # return the minimum number found

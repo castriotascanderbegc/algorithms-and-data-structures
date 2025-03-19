@@ -23,7 +23,7 @@ class Solution:
             anagramsMap[sorted_word].append(word)
         
         # return all values in the map
-        return anagramsMap.values()
+        return anagramsMap.values() # type: ignore
     
     # Optimal solution - Time Complexity: O(m * n)
     # The idea here is to count the occurrences of each letter for each word and insert this count as a key in our map
@@ -43,4 +43,4 @@ class Solution:
             anagramsMap[tuple(count)].append(word)
 
         # return the values in our map
-        return anagramsMap.values()
+        return anagramsMap.values() # type: ignore

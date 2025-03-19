@@ -24,9 +24,7 @@ class CoinChange:
             return res
 
         minCoins = dfs(amount)
-        return -1 if minCoins >= 1e9 else minCoins
-    
-
+        return -1 if minCoins >= 1e9 else int(minCoins)
     # Dynamic Programming - Top Down Approach: Memoization
     # Time Complexity: T(n): O(n * t) where n: length of array, t: given amount
     # Space Complexity: S(n): O(t)
@@ -47,7 +45,7 @@ class CoinChange:
             return res
 
         minCoins = dfs(amount)
-        return -1 if minCoins >= 1e9 else minCoins
+        return -1 if minCoins >= 1e9 else int(minCoins)
 
 
     # Dynamic Programming - Bottom Up Approach: DP
